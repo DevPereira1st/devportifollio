@@ -801,3 +801,144 @@ hr{
         transform: translateX(-2000px);
     }
 }
+
+/* Laptop L*/
+
+@media screen and (max-width: 1440px) {
+    .container-principio {
+        width: 75%;
+        height: 500px;
+
+        .desc {
+        .p {
+            font-size: 20px;
+            color: white;
+        }
+        }
+
+        .img-abstratc {
+            img {
+                width: 500px;
+                height: 500px;
+            }
+        }
+
+    }   
+
+    .sobre-mim {
+        width: 70%;
+        max-width: 1400px;
+        margin: auto;
+        margin-bottom: 120px;
+    }
+
+    .projetos-desenvolvidos {
+
+        .coluna-proj {
+
+            width: 320px;
+            height: 560px;
+
+        }
+
+        .coluna-proj:hover {
+            width: 330px;
+            height: 570px;
+        }
+
+        
+        video {
+            width: 270px;
+            height: 200px;
+        }
+        
+    
+    }
+
+.contato {
+   
+
+    .contatos {
+        width: 75%;
+        max-width: 2500px;
+        margin: auto;
+
+        .sociais {
+            .redes-contact {
+                width: 400px;
+            }
+        }
+    }
+}
+}
+
+/* Laptop */
+
+@media screen and (max-width: 1024px) {
+    .container-principio {
+        width: 75%;
+        height: 400px;
+
+
+
+        .desc {
+        .p {
+            font-size: 15px;
+            color: white;
+        }
+        .text-40px{
+        font-size: 25px;
+        }
+        }
+
+        .img-abstratc {
+            img {
+                width: 370px;
+                height: 370px;
+            }
+        }
+
+    }   
+
+    .projetos-desenvolvidos {
+
+        .coluna-proj {
+            width: 250px;
+            height: 560px;
+
+        }
+
+        .coluna-proj:hover {
+            width: 250px;
+            height: 560px;
+        }
+
+        
+        video {
+            width: 250px;
+            height: 200px;
+        }
+
+    }
+
+.contato {
+    .contatos {
+        width: 75%;
+        max-width: 2500px;
+        margin: auto;
+
+        .sociais {
+            .redes-contact {
+                width: 200px;
+            }
+
+            .img-banner{
+                img {
+                    width: 400px;
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+}
