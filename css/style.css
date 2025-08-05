@@ -988,7 +988,7 @@ header {
 
                 a, 
                 i{
-                    font-size: 27px;
+                    font-size: 18px;
                     color: var(--corQuatro);
                     text-decoration: none;
                     font-family: "Hubot Sans", sans-serif;
@@ -1797,7 +1797,7 @@ header {
 
                 a, 
                 i{
-                    font-size: 27px;
+                    font-size: 15px;
                     color: var(--corQuatro);
                     text-decoration: none;
                     font-family: "Hubot Sans", sans-serif;
