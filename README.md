@@ -11,7 +11,7 @@
 ## Próximos Passos:
 
 ✅ - Ajuste de tela em diferentes dispositivos,<br>
-- Versão web mobile, <br>
+✅ - Versão web mobile, <br>
 - Página de formulário,<br> 
 - Página de projetos.
 
