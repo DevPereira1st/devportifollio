@@ -425,6 +425,7 @@ header {
             .decoration {
                 font-family: "Funnel Display", sans-serif;
                 padding-left: 7px;
+                gap: 5px;
 
                 p {
                     padding: 7px;
@@ -436,7 +437,7 @@ header {
 
                     border: 0.5px solid white;
 
-                    width: 60px;
+                    width: auto;
                     height: 20px;
                     display: flex;
                     align-items: center;
