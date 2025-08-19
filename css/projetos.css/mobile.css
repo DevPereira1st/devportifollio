@@ -1,0 +1,772 @@
+:root {
+    --corFundo: #081A0F;
+    --corBack: #090e09;
+    --corDois: #437069;
+    --corTres: #1A1F1D;
+    --corQuatro: #4B7568;
+}
+
+@media screen and (max-width: 768px) and (min-width: 389px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: var(--corBack);
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .titulo {
+        color: white;
+        font-family: "Funnel Display", sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        padding-top: 50px;
+
+        strong {
+            color: var(--corDois);
+        }
+
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    .projetos-desenvolvidos {
+    padding: 30px;
+    margin: auto;
+
+    .titulo {
+        font-size: 40px;
+        strong {
+            color: var(--corQuatro);
+        }
+    }
+
+    .coluna-proj {
+        background: linear-gradient(25deg,rgba(67, 112, 105, 0.171) 15%, rgba(32, 36, 35, 0.616) 67%, rgba(8, 8, 8, 0.664) 100%);
+        backdrop-filter: blur(50px);
+        border-radius: 15px;
+        width: 360px;
+        height: 500px;
+        transition: 0.3s ease-in;
+
+        margin: auto;
+        
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.13);
+
+        .vid-proj {
+            display: flex;
+            justify-content: center;
+
+        video {
+            width: 300px;
+            height: 200px;
+        }
+
+        }
+
+        .titu-proj {
+            font-family: "Hubot Sans", sans-serif;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.877);
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-top: 25px;
+        }
+
+        .desc-proj {
+            padding: 0 30px;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgb(202, 202, 202);
+            text-align: justify;
+            margin-bottom: 30px;
+        }
+
+        .titulo-proj {
+            display: block;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgb(255, 255, 255);
+            padding: 0 30px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .tec-proj {
+            display: flex;
+            padding: 0 25px;
+            margin-bottom: 10px;
+
+            .decoration {
+                font-family: "Funnel Display", sans-serif;
+                padding-left: 7px;
+
+                p {
+                    padding: 7px;
+
+                    background: linear-gradient(90deg,rgba(67, 112, 105, 0.384) 15%, rgba(8, 26, 15, 0.603) 100%);
+
+                    backdrop-filter: blur(50px);
+                    border-radius: 12px;
+
+                    border: 0.5px solid white;
+
+                    width: 60px;
+                    height: 20px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 10px;
+                    
+                    color: rgb(255, 255, 255);
+
+                    gap: 5px;
+
+                    i {
+                        display: flex;
+                        margin: auto 0;
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .btns-proj {
+            display: flex;
+            gap: 10px;
+            font-family: "Hubot Sans", sans-serif;
+            padding: 0 30px;
+            margin-bottom: 30px;
+
+            display: flex;
+            align-items: flex-end;
+
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+
+            .btn-ver {
+                width: 130px;
+                height: 35px;
+                background:  linear-gradient(25deg,rgba(1, 130, 100, 0.397) 38%, rgba(8, 8, 8, 0.479) 100%);
+                backdrop-filter: blur(50px);
+                border-radius: 12px;
+                display: flex;
+                justify-content: center;
+                border: 1px solid white;
+
+                transition: 1s ease-in;
+
+                cursor: pointer;
+
+                i, a  {
+                    display: flex;
+                    margin: auto 0;
+                    justify-content: center;
+                    align-items: center;
+                    padding-right: 10px;
+                    font-size: 20px;
+                }
+                
+                p, a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto 0;
+                    font-size: 15px;
+                }
+            }
+
+            .btn-ver:hover {
+                background:  linear-gradient(25deg,rgba(13, 109, 86, 0.397) 38%, rgba(23, 26, 24, 0.479) 100%);
+                color: #e3e7e3;
+            }
+
+            .btn-github-proj {
+                width: 40px;
+                height: 35px;
+                background:  linear-gradient(25deg,rgba(1, 130, 100, 0.397) 38%, rgba(8, 8, 8, 0.479) 100%);
+                backdrop-filter: blur(50px);
+                border-radius: 12px;
+                display: flex;
+                justify-content: center;
+                border: 1px solid white;
+
+                cursor: pointer;
+
+                transition: 1s ease-in;
+
+                i {
+                    display: flex;
+                    margin: auto 0;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                }
+                p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto 0;
+                    font-size: 15px;
+                }
+            }
+
+            .btn-github-proj:hover {
+                background:  linear-gradient(25deg,rgba(13, 109, 86, 0.397) 38%, rgba(23, 26, 24, 0.479) 100%);
+                color: #e3e7e3;
+            }
+
+        }
+    }
+
+
+  
+    }
+
+
+.contato {
+   
+    background-color: var(--corQuatro);
+
+    .contatos {
+       padding: 30px;
+        margin: auto;
+
+        .enviaremail {
+
+            font-family: "Hubot Sans", sans-serif;
+            color: white;
+
+           
+            .textemail,
+            .inputemail,
+            .msgcomplete {
+                display: flex;
+                justify-content: center;
+            }
+
+
+            .textemail {
+                padding: 30px;
+                
+                font-size: 20px;
+            }
+
+            .inputemail {
+                
+                input{
+                    width: 200px;
+                    height: 50px;
+                    border-radius: 10px;
+                    padding-left: 20px;
+
+                    border: none;
+                    background-color: var(--corBack);
+
+                    color: white;
+                }
+
+                button {
+                    background-color: #37534a;
+                    color: white;
+
+                    width: 70px;
+                    height: 50px;
+                    border-radius: 10px;
+
+                    border: 1px solid white;
+                    cursor: pointer;
+
+                    transition: 1s all;
+                }
+
+                margin-bottom: 10px;
+            }
+
+            .msgcomplete {
+               padding-bottom: 90px;
+                a {
+                    text-decoration: none;
+                    color: #18241e;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .sociais {
+            display: flex;
+            
+
+            .redes-contact {
+                width: 200px;
+
+
+                .nome {
+                    display: flex;
+                    justify-content: center;
+
+                    font-family: "Funnel Display", sans-serif;
+                    font-size: 50px;
+                    font-weight: bold;
+                    color: white;
+
+                    margin-bottom: 70px;
+                }
+
+                .links-soc {
+                    .text {
+                        display: flex;
+                        margin-bottom: 10px;
+                        gap: 10px;        
+
+                        font-family: "Hubot Sans", sans-serif;
+                        color: rgb(243, 240, 240);
+                        font-size: 18px;
+                    }
+
+                    li {
+                        list-style: none;
+                        background-color: #18241e;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        border-radius: 12px;
+                    }
+
+                    a {  
+                        text-decoration: none;
+                    }
+
+                    i {
+                        color: white;
+                        display: flex;
+                        
+                        align-items: center;
+                        justify-content: center;
+
+                        font-size: 28px;
+
+                        transition: 0.5s all ease-out;
+                    }
+
+                    i:hover {
+                        color: rgb(168, 167, 167);
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+hr {
+    display: none;
+}
+
+
+     
+     .img-banner {
+        display: none;
+     }
+}
+
+/* Mobile S */
+
+@media screen and (max-width: 390px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: var(--corBack);
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .titulo {
+        color: white;
+        font-family: "Funnel Display", sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        padding-top: 50px;
+
+        strong {
+            color: var(--corDois);
+        }
+
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .projetos-desenvolvidos {
+    padding: 30px;
+    margin: auto;
+
+    .titulo {
+        font-size: 40px;
+        strong {
+            color: var(--corQuatro);
+        }
+    }
+
+    .coluna-proj {
+        background: linear-gradient(25deg,rgba(67, 112, 105, 0.171) 15%, rgba(32, 36, 35, 0.616) 67%, rgba(8, 8, 8, 0.664) 100%);
+        backdrop-filter: blur(50px);
+        border-radius: 15px;
+        width: 260px;
+        height: 500px;
+        transition: 0.3s ease-in;
+
+        margin: auto;
+        
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.13);
+
+        .vid-proj {
+            display: flex;
+            justify-content: center;
+
+        video {
+            width: 240px;
+            height: 200px;
+        }
+
+        }
+
+        .titu-proj {
+            font-family: "Hubot Sans", sans-serif;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.877);
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding-top: 25px;
+        }
+
+        .desc-proj {
+            padding: 0 30px;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgb(202, 202, 202);
+            text-align: justify;
+            margin-bottom: 30px;
+        }
+
+        .titulo-proj {
+            display: block;
+            font-family: "Hubot Sans", sans-serif;
+            color: rgb(255, 255, 255);
+            padding: 0 30px;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .tec-proj {
+            display: flex;
+            padding: 0 25px;
+            margin-bottom: 10px;
+
+            .decoration {
+                font-family: "Funnel Display", sans-serif;
+                padding-left: 7px;
+
+                p {
+                    padding: 7px;
+
+                    background: linear-gradient(90deg,rgba(67, 112, 105, 0.384) 15%, rgba(8, 26, 15, 0.603) 100%);
+
+                    backdrop-filter: blur(50px);
+                    border-radius: 12px;
+
+                    border: 0.5px solid white;
+
+                    width: 60px;
+                    height: 20px;
+                    display: flex;
+                    align-items: center;
+                    font-size: 10px;
+                    
+                    color: rgb(255, 255, 255);
+
+                    gap: 5px;
+
+                    i {
+                        display: flex;
+                        margin: auto 0;
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .btns-proj {
+            display: flex;
+            gap: 10px;
+            font-family: "Hubot Sans", sans-serif;
+            padding: 0 30px;
+            margin-bottom: 30px;
+
+            display: flex;
+            align-items: flex-end;
+
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+            }
+
+            .btn-ver {
+                width: 130px;
+                height: 35px;
+                background:  linear-gradient(25deg,rgba(1, 130, 100, 0.397) 38%, rgba(8, 8, 8, 0.479) 100%);
+                backdrop-filter: blur(50px);
+                border-radius: 12px;
+                display: flex;
+                justify-content: center;
+                border: 1px solid white;
+
+                transition: 1s ease-in;
+
+                cursor: pointer;
+
+                i, a  {
+                    display: flex;
+                    margin: auto 0;
+                    justify-content: center;
+                    align-items: center;
+                    padding-right: 10px;
+                    font-size: 20px;
+                }
+                
+                p, a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto 0;
+                    font-size: 15px;
+                }
+            }
+
+            .btn-ver:hover {
+                background:  linear-gradient(25deg,rgba(13, 109, 86, 0.397) 38%, rgba(23, 26, 24, 0.479) 100%);
+                color: #e3e7e3;
+            }
+
+            .btn-github-proj {
+                width: 40px;
+                height: 35px;
+                background:  linear-gradient(25deg,rgba(1, 130, 100, 0.397) 38%, rgba(8, 8, 8, 0.479) 100%);
+                backdrop-filter: blur(50px);
+                border-radius: 12px;
+                display: flex;
+                justify-content: center;
+                border: 1px solid white;
+
+                cursor: pointer;
+
+                transition: 1s ease-in;
+
+                i {
+                    display: flex;
+                    margin: auto 0;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 20px;
+                }
+                p {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto 0;
+                    font-size: 15px;
+                }
+            }
+
+            .btn-github-proj:hover {
+                background:  linear-gradient(25deg,rgba(13, 109, 86, 0.397) 38%, rgba(23, 26, 24, 0.479) 100%);
+                color: #e3e7e3;
+            }
+
+        }
+    }
+
+
+  
+    }
+
+
+.contato {
+   
+    background-color: var(--corQuatro);
+   
+
+    .contatos {
+       padding: 30px;
+        margin: auto;
+
+        .enviaremail {
+
+            font-family: "Hubot Sans", sans-serif;
+            color: white;
+
+           
+            .textemail,
+            .inputemail,
+            .msgcomplete {
+                display: flex;
+                justify-content: center;
+            }
+
+
+            .textemail {
+                padding: 30px;
+                
+                font-size: 15px;
+            }
+
+            .inputemail {
+                
+                input{
+                    width: 170px;
+                    height: 50px;
+                    border-radius: 10px;
+                    padding-left: 20px;
+
+                    border: none;
+                    background-color: var(--corBack);
+
+                    color: white;
+                }
+
+                button {
+                    background-color: #37534a;
+                    color: white;
+
+                    width: 70px;
+                    height: 50px;
+                    border-radius: 10px;
+
+                    border: 1px solid white;
+                    cursor: pointer;
+
+                    transition: 1s all;
+                }
+
+                margin-bottom: 10px;
+            }
+
+            .msgcomplete {
+               padding-bottom: 90px;
+               font-size: 14px;
+                a {
+                    text-decoration: none;
+                    color: #18241e;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .sociais {
+            display: flex;
+            
+
+            .redes-contact {
+                width: 200px;
+
+
+                .nome {
+                    display: flex;
+                    justify-content: center;
+
+                    font-family: "Funnel Display", sans-serif;
+                    font-size: 50px;
+                    font-weight: bold;
+                    color: white;
+
+                    margin-bottom: 70px;
+                }
+
+                .links-soc {
+                    .text {
+                        display: flex;
+                        margin-bottom: 10px;
+                        gap: 10px;        
+
+                        font-family: "Hubot Sans", sans-serif;
+                        color: rgb(243, 240, 240);
+                        font-size: 18px;
+                    }
+
+                    li {
+                        list-style: none;
+                        background-color: #18241e;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        border-radius: 12px;
+                    }
+
+                    a {  
+                        text-decoration: none;
+                    }
+
+                    i {
+                        color: white;
+                        display: flex;
+                        
+                        align-items: center;
+                        justify-content: center;
+
+                        font-size: 28px;
+
+                        transition: 0.5s all ease-out;
+                    }
+
+                    i:hover {
+                        color: rgb(168, 167, 167);
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+hr {
+    display: none;
+}
+
+
+     
+     .img-banner {
+        display: none;
+     }
+}

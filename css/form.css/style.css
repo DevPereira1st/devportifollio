@@ -1,0 +1,41 @@
+:root {
+    --corFundo: #081A0F;
+    --corBack: #090e09;
+    --corDois: #437069;
+    --corTres: #1A1F1D;
+    --corQuatro: #4B7568;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("/public/form/fundo/fundo\ aleatorio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form {
+    
+    margin: auto;
+    width: 800px;
+    height: 900px;
+    background-color: antiquewhite;
+}
+
+.container {
+    display: block;
+    background-color: var(--corDois);
+
+
+}
