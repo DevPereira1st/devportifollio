@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/form.css/style.css">
     <title>Formulário</title>
 </head>
@@ -12,7 +15,9 @@
         <section class="form">
             <div class="container">
                 <div class="text">
-                    <p>Olá</p>
+                    <img src="/public/banners/coffee-cup-animate.svg" alt="dois copos de café, um pra mim e o outro para você.">
+
+                    <p>Vamos tomar um café? Eu pago! ☕</p>
                 </div>
             </div class="inputs">
 
@@ -25,18 +30,18 @@
             <input type="email" name="email" placeholder="Seu email" required>
 
             <p>Digite seu número de telefone:</p> 
-            <input type="number" name="number" placeholder="Seu contato" id="number">
+            <input type="number" name="number" placeholder="(XX) 9 XXXX XXXX" id="number">
            
             <p>Digite sua dúvida, mensagem, etc: *</p> 
-            <textarea name="msg" id="msg" placeholder="Deixe sua mensagem:" required></textarea>
+            <textarea rows="8" cols="52" name="msg" id="msg" placeholder="Deixe sua mensagem:" required></textarea>
 
-            <button>Enviar</button>
+            <button><p>Enviar</p></button>
 
             </form>
 
             </div>
             <div class="voltar">
-                <P>aqui é pra voltar </P>
+               <a href="/html/index.html"><p>Início</p></a>
             </div>
         </section>
     </main>
