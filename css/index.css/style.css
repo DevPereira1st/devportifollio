@@ -620,33 +620,6 @@ header {
     li {
         list-style: none;
     }
-
-    .container-slide {
-        width: 100%;
-    }
-
-    .logoss {
-        width: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-        
-    }
-
-    .logoss ul {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-        animation: 80s infinite slide linear;
-        
-    }
- 
-    .logoss img {
-        filter: grayscale(90%);
-    }
-
-    .logoss ul:hover {
-        animation-play-state: paused;
-    }
 }
 
 .contato {
@@ -797,15 +770,6 @@ hr{
  border-color: #226b4733; 
  height: 480px;
  
-}
-
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-2000px);
-    }
 }
 
 }
@@ -1429,33 +1393,6 @@ header {
     li {
         list-style: none;
     }
-
-    .container-slide {
-        width: 100%;
-    }
-
-    .logoss {
-        width: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-        
-    }
-
-    .logoss ul {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-        animation: 80s infinite slide linear;
-        
-    }
- 
-    .logoss img {
-        filter: grayscale(90%);
-    }
-
-    .logoss ul:hover {
-        animation-play-state: paused;
-    }
 }
 
 .contato {
@@ -1606,15 +1543,6 @@ hr{
  border-color: #226b4733; 
  height: 480px;
  
-}
-
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-2000px);
-    }
 }
 
 }
@@ -2239,32 +2167,6 @@ header {
         list-style: none;
     }
 
-    .container-slide {
-        width: 100%;
-    }
-
-    .logoss {
-        width: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-        
-    }
-
-    .logoss ul {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-        animation: 80s infinite slide linear;
-        
-    }
- 
-    .logoss img {
-        filter: grayscale(90%);
-    }
-
-    .logoss ul:hover {
-        animation-play-state: paused;
-    }
 }
 
 .contato {
