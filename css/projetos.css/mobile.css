@@ -760,13 +760,7 @@ hr {
     }
 }
 
-hr {
-    display: none;
+.img-banner {
+   display: none;
 }
-
-
-     
-     .img-banner {
-        display: none;
-     }
 }
